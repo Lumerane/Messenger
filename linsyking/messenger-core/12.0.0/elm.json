@@ -1,0 +1,51 @@
+{
+    "type": "package",
+    "name": "linsyking/messenger-core",
+    "summary": "Core library for Messenger.",
+    "license": "BSD-3-Clause",
+    "version": "12.0.0",
+    "exposed-modules": {
+        "Base": [
+            "Messenger.Base",
+            "Messenger.Recursion",
+            "Messenger.GeneralModel"
+        ],
+        "UI": [
+            "Messenger.UI",
+            "Messenger.UI.Input",
+            "Messenger.UserConfig"
+        ],
+        "Lib": [
+            "Messenger.Scene.Scene",
+            "Messenger.Scene.RawScene",
+            "Messenger.Scene.LayeredScene",
+            "Messenger.Scene.Transition",
+            "Messenger.Scene.Transitions.Base",
+            "Messenger.Scene.Transitions.Fade",
+            "Messenger.Scene.Transitions.Scroll",
+            "Messenger.Render.Shape",
+            "Messenger.Render.Sprite",
+            "Messenger.Render.SpriteSheet",
+            "Messenger.Render.Text",
+            "Messenger.Layer.Layer",
+            "Messenger.Coordinate.HTML",
+            "Messenger.Coordinate.Coordinates",
+            "Messenger.Component.Component",
+            "Messenger.Audio.Base",
+            "Messenger.Audio.Audio"
+        ]
+    },
+    "elm-version": "0.19.0 <= v < 0.20.0",
+    "dependencies": {
+        "MartinSStewart/elm-audio": "4.0.4 <= v < 5.0.0",
+        "avh4/elm-color": "1.0.0 <= v < 2.0.0",
+        "elm/browser": "1.0.0 <= v < 2.0.0",
+        "elm/core": "1.0.0 <= v < 2.0.0",
+        "elm/html": "1.0.0 <= v < 2.0.0",
+        "elm/json": "1.0.0 <= v < 2.0.0",
+        "elm/time": "1.0.0 <= v < 2.0.0",
+        "ianmackenzie/elm-units": "2.10.0 <= v < 3.0.0",
+        "linsyking/elm-canvas": "4.0.0 <= v < 5.0.0"
+    },
+    "test-dependencies": {}
+}
